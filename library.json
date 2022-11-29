@@ -26,7 +26,7 @@
     "dependencies": {
 
     },
-    "frameworks": "*",
+    "frameworks": "arduino",
     "platforms": "https://github.com/bergernetch/platform-nocan.git",
     "headers": "nocan.h"
   }

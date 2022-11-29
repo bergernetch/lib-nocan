@@ -17,18 +17,18 @@
 #define SPI_NOCAN_FILTER_READ       0x0D   
 #define SPI_NOCAN_NODE_ID           0x0E            
 
-#ifdef ARDUINO
+//#ifdef ARDUINO
     #define delay_ms(n) delay(n)
     #define now_ms() millis()
-#else
-    #include "systick.h"
-    #define delay_ms(n) systick_delay_ms(n)
-    #define now_ms() systick_now_ms()
-#endif
+//#else
+    //#include "systick.h"          // throws error in platformio, maybe works without?
+//    #define delay_ms(n) systick_delay_ms(n)
+//    #define now_ms() systick_now_ms()
+//#endif
+
 /* NOTE: severall functions have a 100ms timeout (approx.), done by cycling 50 times a 2ms timeout. 
  * Normally these timeouts will not be used because these functions are only called if there is data.
  */
-
 
 /* There are two PINS defined and used here:
  * CAN_RECV_INT is PB27

@@ -52,11 +52,11 @@ extern "C" {
 #define NOCAN_LL_TX_TIMEOUT     (-3)
 #define NOCAN_LL_NO_FILTER      (-4)
 
-#ifdef ARDUINO
-    #include "sam.h"
-#else
-    #include <samd21.h>
-#endif
+//#ifdef ARDUINO
+    #include "ATMEL/sam.h" // orig was sam.h
+//#else
+//   #include "ATMEL/samd.h" // orig was samd21.h
+//#endif
 
 int nocan_ll_init(uint8_t reset_type);
 #define NOCAN_INIT_SOFT_RESET (0)

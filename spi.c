@@ -1,8 +1,8 @@
-#ifdef ARDUINO
+//#ifdef ARDUINO
     #include "sam.h"
-#else
-    #include <samd21.h>
-#endif
+//#else
+//    #include "ATMEL/samd.h" // orig was samd21.h
+//#endif
 #include "spi.h"
 
 
