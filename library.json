@@ -1,12 +1,12 @@
 {
-    "name": "NoCAN",
+    "name": "Lib-NoCAN",
     "version": "0.1.0",
     "description": "The NoCan IoT platform enables the creation of a very reliable wired network composed of Arduino-compatible nodes connected through CAN bus, targetting application domains where wireless approaches are not satisfactory. Each node features a 32-bit ARM cortex microcontroller (SAMD21G18) and the network is managed by a Raspberry-Pi.",
     "keywords": "omzlo, nocan, canzero",
     "repository":
     {
       "type": "git",
-      "url": "https://github.com/bergernetch/nocan.git"
+      "url": "https://github.com/bergernetch/lib-nocan.git"
     },
     "authors":
     [
