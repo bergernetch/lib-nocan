@@ -41,7 +41,7 @@
  *
  */
 
-#include "samd21.h"
+#include "../../include/samd21.h"
 
 /* Initialize segments */
 extern uint32_t _sfixed;
