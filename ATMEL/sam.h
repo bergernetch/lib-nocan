@@ -37,6 +37,7 @@
  * ----------------------------------------------------------------------------
  */
 
+/
 /* SAMG55 series */
 #define SAMG55J1 ( \
     part_is_defined( SAMG55J19 ) )
@@ -529,11 +530,11 @@
  */
 
 #if SAMG_SERIES
-#include "samg.h"
+//#include "samg.h"
 #endif /* SAMG_SERIES */
 
 #if SAME_SERIES
-#include "same.h"
+//#include "same.h"
 #endif /* SAME_SERIES */
 
 #if SAMD_SERIES
@@ -541,27 +542,27 @@
 #endif /* SAMD_SERIES */
 
 #if SAML_SERIES
-#include "saml.h"
+//#include "saml.h"
 #endif /* SAML_SERIES */
 
 #if SAMC_SERIES
-#include "samc.h"
+//#include "samc.h"
 #endif /* SAMC_SERIES */
 
 #if SAMS_SERIES
-#include "sams.h"
+//#include "sams.h"
 #endif /* SAMS_SERIES */
 
 #if SAM3_SERIES
-#include "sam3.h"
+////#include "sam3.h"
 #endif /* SAM3_SERIES */
 
 #if SAMR_SERIES
-#include "samr.h"
+//#include "samr.h"
 #endif /* SAMR_SERIES */
 
 #if SAM4_SERIES
-#include "sam4.h"
+//#include "sam4.h"
 #endif /* SAM4_SERIES */
 
 #endif
